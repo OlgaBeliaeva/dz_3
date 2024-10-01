@@ -1,0 +1,32 @@
+.list-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:40px; /* Увеличиваем отступ между элементами списка */
+    width: 300px;
+    margin:8px; 
+  }
+  
+  .list-item span {
+    margin-right: 10px; /* Отступ справа от текста */
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
