@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/List.css'; // Импортируем файл стилей
+import '../styles/List.css'; 
 
 const List = () => {
   const [people, setPeople] = useState([

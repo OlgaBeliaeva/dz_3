@@ -12,13 +12,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom:40px; /* Увеличиваем отступ между элементами списка */
+    margin-bottom:40px; 
     width: 300px;
     margin:8px; 
   }
   
   .list-item span {
-    margin-right: 10px; /* Отступ справа от текста */
+    margin-right: 10px; 
   }
   
   .delete-button {
